@@ -34,6 +34,11 @@ export class AppComponent {
     {
       title: 'Create New Account',
       url: '',
+      icon: 'person-add'
+    },
+    {
+      title: 'Feeds',
+      url: '',
       icon: 'paper'
     },
     {
