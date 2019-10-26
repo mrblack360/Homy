@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { url } from 'inspector';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +6,29 @@ import { url } from 'inspector';
   styleUrls: ['home.page.scss']
 })
 export class HomePage {
+  topTabs = [
+    {
+      tab: 'home',
+      icon: 'finger-print',
+      label: 'Natives',
+      url: 'h',
+      badge: 0
+    },
+    {
+      tab: 'post',
+      icon: 'link',
+      label: 'Linked',
+      url: 'p',
+      badge: 4
+    },
+    {
+      tab: 'chats',
+      icon: 'chatbubbles',
+      label: 'Chats',
+      url: 'p',
+      badge: 0
+    }
+  ];
   bottomTabs = [
     {
       tab: 'home',
@@ -33,7 +55,7 @@ export class HomePage {
       tab: 'profile',
       icon: 'person',
       label: 'Profile',
-      url: 'p',
+      url: '',
       badge: 0
     }
   ];
