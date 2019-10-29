@@ -11,21 +11,21 @@ export class HomePage {
       tab: 'home',
       icon: 'finger-print',
       label: 'Natives',
-      url: 'h',
+      url: 'natives',
       badge: 0
     },
     {
       tab: 'post',
       icon: 'link',
       label: 'Linked',
-      url: 'p',
+      url: 'linked',
       badge: 4
     },
     {
       tab: 'chats',
       icon: 'chatbubbles',
       label: 'Chats',
-      url: 'p',
+      url: 'chats',
       badge: 0
     }
   ];
