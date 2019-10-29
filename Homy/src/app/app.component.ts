@@ -23,27 +23,27 @@ export class AppComponent {
     // }
     {
       title: 'Settings',
-      url: '',
+      url: 'under_construction',
       icon: 'settings'
     },
     {
       title: 'Create Group',
-      url: '',
+      url: 'under_construction',
       icon: 'people'
     },
     {
       title: 'Create New Account',
-      url: '',
+      url: 'under_construction',
       icon: 'person-add'
     },
     {
       title: 'Feeds',
-      url: '',
+      url: 'under_construction',
       icon: 'paper'
     },
     {
       title: 'Timezone',
-      url: '',
+      url: 'under_construction',
       icon: 'clock'
     }
   ];
