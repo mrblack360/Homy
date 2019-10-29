@@ -41,21 +41,21 @@ export class HomePage {
       tab: 'post',
       icon: 'chatboxes',
       label: 'Post',
-      url: 'p',
+      url: 'under_construction',
       badge: 8
     },
     {
       tab: 'platform',
       icon: 'globe',
       label: 'Platform',
-      url: 'p',
+      url: 'under_construction',
       badge: 0
     },
     {
       tab: 'profile',
       icon: 'person',
       label: 'Profile',
-      url: '',
+      url: 'under_construction',
       badge: 0
     }
   ];
