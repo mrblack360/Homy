@@ -9,6 +9,8 @@ import { NativesComponent } from './pages/natives/natives.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LinkedComponent } from './pages/linked/linked.component';
 import { ChatsComponent } from './pages/chats/chats.component';
+import { PlatformComponent } from './pages/platform/platform.component';
+import { PostsComponent } from './pages/posts/posts.component';
 
 @NgModule({
   imports: [
@@ -39,6 +41,14 @@ import { ChatsComponent } from './pages/chats/chats.component';
           {
             path: 'chats',
             component: ChatsComponent
+          },
+          {
+            path: 'platform',
+            component: PlatformComponent
+          },
+          {
+            path: 'posts',
+            component: PostsComponent
           }
         ]
       }
@@ -49,7 +59,9 @@ import { ChatsComponent } from './pages/chats/chats.component';
     NativesComponent,
     HomeComponent,
     LinkedComponent,
-    ChatsComponent
+    ChatsComponent,
+    PlatformComponent,
+    PostsComponent
   ]
 })
 export class HomePageModule {}

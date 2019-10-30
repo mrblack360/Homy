@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar color="secondary" class="app-title">
+  <ion-toolbar color="primary" class="app-title">
     Homy
   </ion-toolbar>
 </ion-header>
@@ -10,7 +10,7 @@
     </ion-buttons>
     <ion-tabs>
       <ion-tab-bar color="primary" slot="end" class="ion-top-tab-bar">
-        <ion-tab-button tab="Home" *ngFor="let tab of topTabs">
+        <ion-tab-button *ngFor="let tab of topTabs">
           <ion-icon
             [name]="tab.icon"
             [routerLink]="[tab.url]"
@@ -34,7 +34,7 @@
   <ion-router-outlet></ion-router-outlet>
   <ion-tabs>
     <ion-tab-bar slot="bottom">
-      <ion-tab-button tab="Home" *ngFor="let tab of bottomTabs">
+      <ion-tab-button *ngFor="let tab of bottomTabs">
         <ion-icon
           [name]="tab.icon"
           [routerLink]="[tab.url]"
