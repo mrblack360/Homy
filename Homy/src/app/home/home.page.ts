@@ -11,21 +11,21 @@ export class HomePage {
       tab: 'home',
       icon: 'finger-print',
       label: 'Natives',
-      url: 'h',
+      url: 'natives',
       badge: 0
     },
     {
       tab: 'post',
       icon: 'link',
       label: 'Linked',
-      url: 'p',
+      url: 'linked',
       badge: 4
     },
     {
       tab: 'chats',
       icon: 'chatbubbles',
       label: 'Chats',
-      url: 'p',
+      url: 'chats',
       badge: 0
     }
   ];
@@ -34,28 +34,28 @@ export class HomePage {
       tab: 'home',
       icon: 'home',
       label: 'Home',
-      url: '',
+      url: 'home',
       badge: 0
     },
     {
       tab: 'post',
       icon: 'chatboxes',
       label: 'Post',
-      url: 'under_construction',
+      url: 'posts',
       badge: 8
     },
     {
       tab: 'platform',
       icon: 'globe',
       label: 'Platform',
-      url: 'under_construction',
+      url: 'platform',
       badge: 0
     },
     {
       tab: 'profile',
       icon: 'person',
       label: 'Profile',
-      url: 'under_construction',
+      url: '',
       badge: 0
     }
   ];
