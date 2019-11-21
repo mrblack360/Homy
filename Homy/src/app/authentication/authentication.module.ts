@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
 // Imports from Angular Material
 import { MatInputModule, MatFormFieldModule } from '@angular/material';
 
-// components
+// Imports from Components
 import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
