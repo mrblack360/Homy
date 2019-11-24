@@ -1,0 +1,41 @@
+.app-title {
+  font-family: 'Great Vibes', cursive;
+  text-align: left;
+  font-size: 25px;
+  height: 44px;
+}
+ion-app {
+  background-color: rgb(250, 131, 13);
+}
+ion-card {
+  background-color: white;
+  width: 120%;
+  margin-left: -10%;
+  margin-bottom: -10%;
+  height: 90%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  text-align: center;
+}
+.card-title {
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  font-size: 35px;
+}
+.bar {
+  width: 60%;
+  align-content: center;
+  margin-left: 20%;
+}
+ion-item {
+  margin-left: 20%;
+  width: 60%;
+}
+.signup {
+  margin-top: 5px;
+  font-family: 'Poiret One', cursive;
+}
+ion-label,
+ion-input {
+  font-family: 'Poiret One', cursive;
+}

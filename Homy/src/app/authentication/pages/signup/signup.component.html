@@ -1,0 +1,40 @@
+<ion-app>
+  <ion-header class="header">
+    <ion-toolbar color="primary" class="app-title">
+      Homy
+    </ion-toolbar>
+  </ion-header>
+  <ion-card>
+    <br />
+    <br />
+    <ion-card-subtitle class="card-title">Create an account</ion-card-subtitle>
+    <ion-progress-bar value="0.2" class="bar" color="primary"></ion-progress-bar>
+
+    <!-- Form form Angular Material -->
+    <form class="signup-form">
+      <ion-title>Personal Details</ion-title>
+      <ion-item>
+        <ion-label color="dark" position="floating">First Name</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="dark" position="floating">Last Name</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="dark" position="floating">Username</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="dark" position="floating">Password</ion-label>
+        <ion-input type="password" minlength="8" pattern="password"></ion-input>
+      </ion-item>
+      <ion-button class="signup" shape="round">Continue</ion-button>
+      <br><br>
+
+      <ion-note color="dark">
+        Have an account already? <a href="auth/login">Login</a>
+      </ion-note>
+    </form>
+  </ion-card>
+</ion-app>

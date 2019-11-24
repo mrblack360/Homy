@@ -11,11 +11,6 @@
     <ion-tabs>
       <ion-tab-bar color="primary" slot="end" class="ion-top-tab-bar">
         <ion-tab-button *ngFor="let tab of topTabs">
-          <ion-icon
-            [name]="tab.icon"
-            [routerLink]="[tab.url]"
-            routerLinkActive="router-link-active"
-          ></ion-icon>
           <ion-label
             [routerLink]="[tab.url]"
             routerLinkActive="router-link-active"

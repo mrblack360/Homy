@@ -1,0 +1,31 @@
+<ion-app>
+  <ion-header class="header">
+    <ion-toolbar color="primary" class="app-title">
+      Homy
+    </ion-toolbar>
+  </ion-header>
+  <ion-card>
+    <br />
+    <br />
+    <ion-card-subtitle class="card-title">Login</ion-card-subtitle>
+    <ion-progress-bar value="1" class="bar" color="medium"></ion-progress-bar>
+
+    <!-- Form form Angular Material -->
+    <form class="login-form">
+      <ion-item>
+        <ion-label color="dark" position="floating">Username</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="dark" position="floating">Password</ion-label>
+        <ion-input type="password" minlength="8" pattern="password"></ion-input>
+      </ion-item>
+      <ion-button class="login" shape="round">Login</ion-button>
+      <br><br>
+
+      <ion-note color="dark">
+        New to Theatre of natives? <a href="auth/signup">Create an account</a>
+      </ion-note>
+    </form>
+  </ion-card>
+</ion-app>
