@@ -13,13 +13,14 @@
     <!-- Form form Angular Material -->
     <form class="example-form">
       <ion-item>
-        <ion-label>Username</ion-label>
+        <ion-label position="floating">Username</ion-label>
         <ion-input></ion-input>
       </ion-item>
       <ion-item>
-        <ion-label>Password</ion-label>
-        <ion-input type="password"></ion-input>
+        <ion-label position="floating">Password</ion-label>
+        <ion-input type="password" minlength="8" pattern="password"></ion-input>
       </ion-item>
+      <ion-button class="login" shape="round">Login</ion-button>
     </form>
   </ion-card>
 </ion-app>
