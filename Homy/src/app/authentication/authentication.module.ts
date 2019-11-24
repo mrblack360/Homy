@@ -8,6 +8,7 @@ import { MatInputModule, MatFormFieldModule } from '@angular/material';
 
 // Imports from Components
 import { LoginComponent } from './pages/login/login.component';
+import { SignupComponent } from './pages/signup/signup.component';
 
 @NgModule({
   imports: [
@@ -16,12 +17,21 @@ import { LoginComponent } from './pages/login/login.component';
     RouterModule.forChild([
       {
         path: '',
+        pathMatch: 'full',
+        redirectTo: 'login'
+      },
+      {
+        path: 'login',
         component: LoginComponent
+      },
+      {
+        path: 'signup',
+        component: SignupComponent
       }
     ]),
     MatInputModule,
     MatFormFieldModule
   ],
-  declarations: [LoginComponent]
+  declarations: [LoginComponent, SignupComponent]
 })
 export class AuthenticationModule { }
