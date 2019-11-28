@@ -29,8 +29,8 @@
         <ion-label color="dark" position="floating">Password</ion-label>
         <ion-input type="password" minlength="8" pattern="password"></ion-input>
       </ion-item>
-      <ion-button class="signup" shape="round">Continue</ion-button>
-      <br><br>
+      <ion-button class="signup" shape="round" (click)="presentAlert()">Continue</ion-button>
+      <br>{{firstName}}<br>
 
       <ion-note color="dark">
         Have an account already? <a href="auth/login">Login</a>
