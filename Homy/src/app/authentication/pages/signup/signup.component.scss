@@ -1,12 +1,18 @@
 ion-app {
   background-color: rgb(250, 131, 13);
 }
+.foreground-image {
+  // max-height: 20%;
+  object-fit: contain;
+  height: 40%;
+  width: 100%;
+}
 ion-card {
   background-color: white;
   width: 120%;
   margin-left: -10%;
   margin-bottom: -10%;
-  height: 90%;
+  height: 100%;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
   text-align: center;
