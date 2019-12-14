@@ -1,8 +1,8 @@
-.app-title {
-  font-family: 'Great Vibes', cursive;
-  text-align: left;
-  font-size: 25px;
-  height: 44px;
+.foreground-image {
+  // max-height: 20%;
+  object-fit: contain;
+  height: 40%;
+  width: 100%;
 }
 ion-app {
   background-color: rgb(250, 131, 13);
@@ -12,7 +12,7 @@ ion-card {
   width: 120%;
   margin-left: -10%;
   margin-bottom: -10%;
-  height: 90%;
+  height: 100%;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
   text-align: center;
