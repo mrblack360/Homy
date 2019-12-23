@@ -10,6 +10,10 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
+import { firebaseConfig } from 'firebase-config';
+
+import { AngularFireModule } from '@angular/fire/';
+import { AngularFirestore } from '@angular/fire/firestore';
 
 
 @NgModule({
@@ -19,7 +23,8 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AngularFireModule.initializeApp(firebaseConfig)
   ],
   providers: [
     StatusBar,
